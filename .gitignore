@@ -5,7 +5,7 @@
 .DS_Store
 .idea/
 node_modules/
-dist/
+
 *.log
 package-lock.json
 .next/
