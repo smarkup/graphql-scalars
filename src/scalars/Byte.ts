@@ -42,7 +42,6 @@ function validate(value: Buffer | string | BufferJson, ast?: ValueNode) {
           : undefined
       );
     }
-    console.log('scalar', { value, isBase64, isHex, returning: global.Buffer.from(value, isHex ? 'hex' : 'base64') });
     return global.Buffer.from(value, isHex ? 'hex' : 'base64');
   }
 
